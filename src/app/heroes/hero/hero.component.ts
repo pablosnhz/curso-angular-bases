@@ -10,16 +10,16 @@ export class HeroComponent {
   public name: string = 'ironman';
   public age:  number = 45;
 
-  get capitalizeName(): string {
+  get capitalizedName():string {
     return this.name.toUpperCase();
   }
 
-  getHeroDescription(): string {
-    return `${ this.name } - ${ this.age }`
+  getHeroDescription():string {
+    return `${ this.name } - ${ this.age }`;
   }
 
-  changeHero(): void {
-    this.name = 'hulk'
+  changeHero():void {
+    this.name = 'Spiderman'
   }
 
   changeAge():void {
@@ -32,6 +32,7 @@ export class HeroComponent {
 
     // document.querySelectorAll('h1')!.forEach( element => {
     //   element.innerHTML = '<h1>Desde Angular</h1>';
-    // })
+    // });
   }
+
 }

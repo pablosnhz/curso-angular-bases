@@ -4,8 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { MainPageComponent } from './pages/main-page.component';
 import { ListComponent } from './components/list/list.component';
-import { CharacterComponent } from './components/character/character.component';
-
+import { AddCharacterComponent } from './components/add-character/add-character.component';
 
 
 
@@ -13,7 +12,7 @@ import { CharacterComponent } from './components/character/character.component';
   declarations: [
     MainPageComponent,
     ListComponent,
-    CharacterComponent
+    AddCharacterComponent
   ],
   exports: [
     MainPageComponent
